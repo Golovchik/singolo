@@ -4,5 +4,60 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #323746;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+
+.header-wrapper {
+    min-height: 95px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+  }
+
+  .header-container {
+    margin: 0 auto;
+    padding: 0 40px;
+    max-width: 1020px;
+  }
+
+  .header-section {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    display: flex;
+    text-decoration: none;
+    padding-top: 34px;
+  }
+
+  .logo-block-tag {
+    width: 108px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .logo-block-decoration {
+    color: #f06c64;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .menu-block {
+    padding-top: 34px;
+  }
+
+  .navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-decoration: none;
+  }
+
+  .menu-item {
+    list-style-type: none;
   }
